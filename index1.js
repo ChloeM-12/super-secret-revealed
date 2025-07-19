@@ -125,7 +125,7 @@ function openletter(){
         hint.style.visibility = "hidden"
         envelope.classList.toggle("flap")
     }
-    else{n
+    else{
         hint.textContent = wrongmessages[attempts]
         attempts = attempts + 1
     }
